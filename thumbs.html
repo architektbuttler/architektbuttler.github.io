@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=0.75">
+		<link rel="icon" href="img/icon.png">
+		<title>Architektenb&uuml;ro Buttler</title>
+		<style>
+			html {height:100%;}
+			@font-face {font-family:TwCen;src:url('ttf/twcen-medium.ttf') format('truetype');} 
+			@font-face {font-family:TwCen;font-weight:bold;src:url('ttf/twcen-bold.ttf') format('truetype');}
+			body {font-family:TwCen,sans-serif;max-width:100%;overflow-x:hidden;background-color:#f5f5f0;height:100%;display:flex;flex-flow:column;margin:0;}
+			div.header {border-bottom:1px solid black;font-size:2em;text-transform:uppercase;display:flex;justify-content:space-between;margin:0.5em 0.5em 0.1em 0.5em;flex:0 1 auto;padding-bottom:0.1em;}
+			div.header-text {display:flex;justify-content:space-between;width:11.5em;color:black;}
+			div.header-menu {display:flex;justify-content:space-between;width:11.5em;}
+			div.header-item {flex: 0 1 auto;}
+			div.main {margin:0.1em 1.5em 0.1em 0.5em;display:grid;grid-template-columns:repeat(auto-fit,13em);grid-gap:0.5em;justify-content:space-between;align-content:flex-start;opacity:0;transition:opacity 0.25s;flex: 1 1 auto;}
+			div.bottom {display:flex;font-size:0.75em;flex:0 1 auto;margin:0.1em 1em 0em 1em;padding-bottom:1em;justify-content:space-between;color:#71797e;}
+			div.project {min-width:13em;margin:0.5em 0.5em 0.25em 0.5em;position:relative;}
+			div.imagetitle {font-size:1.25em;opacity:0;transition:opacity 1s;max-width:13em;float:left;position:absolute;font-weight:bold;left:0.25em;bottom:0.25em;z-index:1000;color:#f8f8f8;-webkit-text-stroke:0.2px black;overflow-wrap:break-word;}
+			div.project:hover .imagetitle {opacity:1;transition: opacity 0.5s;}
+			img.pic {max-width:100%;opacity:0.75;transition:opacity 0.25s;}
+			img.pic:hover {opacity:1.0;transition:opacity 0.25s;}
+			p {text-align:right;font-family:TwCen;font-size:1em;margin:0;}
+			h1 {font-size:1em;font-weight:normal;margin:0;padding:0;color:black;flex: 0 1 auto;}
+			a {text-decoration:none;color:#71797e;-webkit-tap-highlight-color:transparent !important;}
+			a.current {color:#484e51;}
+			a:hover {color:black;}
+			@media screen and (max-width:770px) {
+				div.header {display:block;font-size:7.5vw;}
+				div.header-text {width:100%;}
+				div.header-menu {width:100%;}
+				}
+			@media print {
+				div.header {font-size:1.5em;}
+				body {overflow-x:visible;}
+				a.impressum {visibility:hidden;}
+				div.imagetitle {opacity:1;margin-bottom:0.75em;}
+				}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<a href="index.html">
+				<div class="header-text">
+					<h1>Architektenb&uuml;ro</h1>
+					<h1>Buttler</h1>
+				</div>
+			</a>
+			<div class="header-menu">
+				<div class="header-item"><a class="current" href="thumbs.html">Projekte</a></div>
+				<div class="header-item"><a href="team.html">Team</a></div>
+				<div class="header-item"><a href="kontakt.html">Kontakt</a></div>
+			</div>
+		</div>
+		<div class="main" id="main">
+			<div class="project"><a href="projekte.html#001"><img class="pic" src="img/001_pic-square.jpg" /><div class="imagetitle">EINFAMILIENHAUS M.</div></a></div>
+			<div class="project"><a href="projekte.html#037"><img class="pic" src="img/037_pic-square.jpg" /><div class="imagetitle">ZUBAU EINFAMILIENHAUS M.</div></a></div>
+			<div class="project"><a href="projekte.html#013"><img class="pic" src="img/013_pic-square.jpg" /><div class="imagetitle">GENERALSANIERUNG VILLA B.</div></a></div>
+			<div class="project"><a href="projekte.html#004"><img class="pic" src="img/004_pic-square.jpg" /><div class="imagetitle">GENERALSANIERUNG u. DACHAUSBAU M.</div></a></div>
+			<div class="project"><a href="projekte.html#038"><img class="pic" src="img/038_pic-square.jpg" /><div class="imagetitle">GENERALSANIERUNG u. DACHAUSBAU H.</div></a></div>
+			<div class="project"><a href="projekte.html#006"><img class="pic" src="img/006_pic-square.jpg" /><div class="imagetitle">ENTWURF f&uuml;r GENERALSANIERUNG u. DACHAUSBAU M.</div></a></div>
+			<div class="project"><a href="projekte.html#056"><img class="pic" src="img/056_pic-square.jpg" /><div class="imagetitle">GENERALSANIERUNG u. DACHAUSBAU M.</div></a></div>
+			<div class="project"><a href="projekte.html#052"><img class="pic" src="img/052_pic-square.jpg" /><div class="imagetitle">GENERALSANIERUNG u. DACHAUSBAU I.</div></a></div>
+			<div class="project"><a href="projekte.html#p01"><img class="pic" src="img/p01_pic-square.jpg" /><div class="imagetitle">ENTWURF f&uuml;r GENERALSANIERUNG u. DACHAUSBAU W.</div></a></div>
+			<div class="project"><a href="projekte.html#045"><img class="pic" src="img/045_pic-square.jpg" /><div class="imagetitle">ERRICHTUNG EINER SCHULE</div></a></div>
+			<div class="project"><a href="projekte.html#042"><img class="pic" src="img/042_pic-square.jpg" /><div class="imagetitle">SANIERUNG u. ZUBAU MEHRFAMILIENHAUS B. & F.</div></a></div>
+			<div class="project"><a href="projekte.html#051"><img class="pic" src="img/051_pic-square.jpg" /><div class="imagetitle">KLEINGARTEN- WOHNHAUS V.</div></a></div>
+			<div class="project"><a href="projekte.html#041"><img class="pic" src="img/041_pic-square.jpg" /><div class="imagetitle">NEUBAU FORST- u. JAGDHAUS</div></a></div>
+			<div class="project"><a href="projekte.html#060"><img class="pic" src="img/060_pic-square.jpg" /><div class="imagetitle">SANIERUNG u. UMBAU EINFAMILIENHAUS M.</div></a></div>
+			<div class="project"><a href="projekte.html#058"><img class="pic" src="img/058_pic-square.jpg" /><div class="imagetitle">ENTWURF ZUBAU EINFAMILIENHAUS H.</div></a></div>
+			<div class="project"><a href="projekte.html#072"><img class="pic" src="img/072_pic-square.jpg" /><div class="imagetitle">SANIERUNG u. UMBAU EINFAMILIENHAUS R.</div></a></div>
+			<div class="project"><a href="projekte.html#049"><img class="pic" src="img/049_pic-square.jpg" /><div class="imagetitle">SANIERUNG u. UMBAU EINFAMILIENHAUS M.</div></a></div>
+			<div class="project"><a href="projekte.html#079"><img class="pic" src="img/079_pic-square.jpg" /><div class="imagetitle">STUDIE f&uuml;r UMBAU EINES B&Uuml;ROGEB&Auml;UDES</div></a></div>
+			<div class="project"><a href="projekte.html#020"><img class="pic" src="img/020_pic-square.jpg" /><div class="imagetitle">UMBAU WOHNUNG P.</div></a></div>
+			<div class="project"><a href="projekte.html#063"><img class="pic" src="img/063_pic-square.jpg" /><div class="imagetitle">UMBAU WOHNUNG V.</div></a></div>
+			<div class="project"><a href="projekte.html#073"><img class="pic" src="img/073_pic-square.jpg" /><div class="imagetitle">EINFAMILIENHAUS K.</div></a></div>
+			<div class="project"><a href="projekte.html#w01"><img class="pic" src="img/w01_pic-square.jpg" /><div class="imagetitle">WETTBEWERB BAUHAUS MUSEUM</div></a></div>
+			<div class="project"><a href="projekte.html#w02"><img class="pic" src="img/w02_pic-square.jpg" /><div class="imagetitle">WETTBEWERB BRG SILLGASSE</div></a></div>
+			<div class="project"><a href="projekte.html#w03"><img class="pic" src="img/w03_pic-square.jpg" /><div class="imagetitle">WETTBEWERB ZUBAU SPERLGYMNASIUM</div></a></div>
+			<div class="project"><a href="projekte.html#w04"><img class="pic" src="img/w04_pic-square.jpg" /><div class="imagetitle">WETTBEWERB MUSIKSCHULE u. VERANSTALTUNGS- ZENTRUM</div></a></div>
+			<div class="project"><a href="projektliste.html"><img class="pic" src="img/000_pic-liste.jpg" /><div class="imagetitle">PROJEKTLISTE</div></a></div>
+		</div>
+		<div class="bottom">
+			<a class="impressum" href="impressum.html">Impressum</a>
+			<p>&#169; 2025</p>
+		</div>
+		<script>
+			window.addEventListener('load', function Load(){
+				var MainPage = document.getElementById("main");
+				MainPage.style.opacity = "1";
+				});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,2556 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=0.75">
+		<link rel="icon" href="img/icon.png">
+		<title>Architektenb&uuml;ro Buttler</title>
+		<style>
+			html {height:100%}
+			@font-face {font-family:TwCen;src:url('ttf/twcen-medium.ttf') format('truetype');} 
+			@font-face {font-family:TwCen;font-weight:bold;src:url('ttf/twcen-bold.ttf') format('truetype');}
+			body {font-family:TwCen,sans-serif;max-width:100%;overflow-x:hidden;background-color:#f5f5f0;height:100%;display:flex;flex-flow:column;margin:0;}
+			div.header {border-bottom:1px solid black;font-size:2em;text-transform:uppercase;display:flex;justify-content:space-between;margin:0.5em 0.5em 0.1em 0.5em;flex:0 1 auto;padding-bottom:0.1em;}
+			div.header-text {display:flex;justify-content:space-between;width:11.5em;color:black;}
+			div.header-menu {display:flex;justify-content:space-between;width:11.5em;}
+			div.header-item {flex: 0 1 auto;}
+			div.main {display:flex;opacity:0;transition:opacity 0.25s;flex: 1 1 auto;margin:0.1em 0.5em 0.1em 0.5em;}
+			div.bottom {display:flex;font-size:0.75em;flex:0 1 auto;margin:0.1em 1em 0em 1em;padding-bottom:1em;justify-content:space-between;color:#71797e;}
+			div.center {margin:auto;padding:1em;font-size:em;width:35em;}
+			div.projekt {display:flex;justify-content:space-between;width:100%;}
+			div.projekt-header {display:flex;justify-content:space-between;width:100%;font-weight:bold;margin-top:1.75em;}
+			div.projekt-item {flex: 0 1 auto;min-width:0.1em;}
+			div.projekt-item:nth-child(2) {text-align:right;}
+			img.pic {width:100%;padding-top:1em;}
+			h1 {font-size:1em;font-weight:normal;margin:0;padding:0;color:black;flex: 0 1 auto;}
+			a {text-decoration:none;color:#71797E;-webkit-tap-highlight-color:transparent !important;}
+			a.current {color:#484e51;}
+			a:hover {color:black;}
+			p {text-align:right;font-family:TwCen;font-size:1em;margin:0;}
+			@media screen and (max-width:770px) {
+				div.header {display:block;font-size:7.5vw;}
+				div.header-text {width:100%;}
+				div.header-menu {width:100%;}
+				}
+			@media print {
+				div.header {font-size:1.5em;}
+				body {overflow-x:visible;}
+				div.center {font-size:0.75em;}
+				a.impressum {visibility:hidden;}
+				}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<a href="index.html">
+				<div class="header-text">
+					<h1>Architektenb&uuml;ro</h1>
+					<h1>Buttler</h1>
+				</div>
+			</a>
+			<div class="header-menu">
+				<div class="header-item"><a class="current" href="thumbs.html">Projekte</a></div>
+				<div class="header-item"><a href="team.html">Team</a></div>
+				<div class="header-item"><a href="kontakt.html">Kontakt</a></div>
+			</div>
+		</div>
+		<div class="main" id="main">
+			<div class="center">
+
+				<div class="projekt-header">
+					<div class="projekt-item">001</div>
+					<div class="projekt-item">Einfamilienhaus M.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1170 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung eines Einfamilienhaus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2012-2015</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">002</div>
+					<div class="projekt-item">DC Living</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1220 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6-7</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenermittlungsgrundlage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2012-2013</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">ARGE m. EMB f. Baumschlager Hutter Partners</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">003</div>
+					<div class="projekt-item">Belle.Vue</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1190 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenberechung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2013</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Architekt Krischanitz</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">004</div>
+					<div class="projekt-item">Haus B.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1130 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Zubau, Umbau und Sanierung eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenberechung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2013</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Architekt Czech</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">005</div>
+					<div class="projekt-item">Haus F.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">8924 Wildalpen</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung eines Einfamilienhaus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis inkl. Ausf&uuml;hrungsplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2013-2014</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">006</div>
+					<div class="projekt-item">Wohnhaus M.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1170 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Dachgeschossausbau und Sanierung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-2</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Vorentwurf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2013</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">007</div>
+					<div class="projekt-item">DC Tower</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1220 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Ausbau Hotel / Restaurant / Bar</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenermittlungsgrundlage Teilbereiche Ausbau</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2013</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">008</div>
+					<div class="projekt-item">Wohnhaus M.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1020 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Dachgeschossausbau und Sanierung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2013</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">009</div>
+					<div class="projekt-item">Wohnhaus S.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1210 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau und Sanierung von bestehenden Wohneinheiten und Gesch&auml;ftslokalen</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2013</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">010</div>
+					<div class="projekt-item">Apostellgasse </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1030 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung eines PKW-Abstellplatzes</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2013</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">011</div>
+					<div class="projekt-item">Wohnung V.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1020 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Wohnungsumbau</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2013</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">012</div>
+					<div class="projekt-item">Millenium Tower</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1200 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Einbau Windfang</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2014</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">013</div>
+					<div class="projekt-item">Einfamilienhaus B.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1130 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Zubau, Umbau und Sanierung eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2014</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">Baumschlager Hutter Partners ZT GmbH</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">014</div>
+					<div class="projekt-item">Wohnhaus M.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1150 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Dachgeschossausbau und Sanierung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">5-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2014-2015</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">015</div>
+					<div class="projekt-item">Eduscho</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1110 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau von Lager und B&uuml;ror&auml;umlichkeiten</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2013-2015</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">ARGE mit EMB</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">016</div>
+					<div class="projekt-item">Haus S.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1180 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Zubau, Umbau und Sanierung eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2016-2019</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">017</div>
+					<div class="projekt-item">Lakeside</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">9020 Klagenfurt</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrungsplanung, Ausschreibung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2014</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Baumschlager Eberle</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">018</div>
+					<div class="projekt-item">Laborgeb&auml;ude</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">3400 Klosterneuburg</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau Labor</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenermittlungsgrundlage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Baumschlager Eberle</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">019</div>
+					<div class="projekt-item">Wohnung R.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1070 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau zweier Wohnungen</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2015</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">020</div>
+					<div class="projekt-item">Wohnung P.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1030 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau einer Wohnung </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2015</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">021</div>
+					<div class="projekt-item">Wohnung S.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1150 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau zweier Wohnungen</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2015</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">022</div>
+					<div class="projekt-item">Wohnung L.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1130 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau einer Wohnung </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenermittlungsgrundlage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2015</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">023</div>
+					<div class="projekt-item">T&Uuml;WI</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1190 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Neubau BoKu Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenermittlungsgrundlage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2017</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">ARGE m. EMB f. Baumschlager Hutter Partners</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">024</div>
+					<div class="projekt-item">Wohnhaus M.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1130 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau eines Wohnhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2015-2017</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">025</div>
+					<div class="projekt-item">Haus an der Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1030 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Sanierung Garage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2016-2018</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">ARGE mit EMB</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">026</div>
+					<div class="projekt-item">Wohnung P.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1020 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau Wohnung - M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2016</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">027</div>
+					<div class="projekt-item">Wohnhausanlage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1220 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung einer Wohnhausanlage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">5</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrungsplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Blaich + Delugan Architekten</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">028</div>
+					<div class="projekt-item">TU Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1040 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">5</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausschreibung f&uuml;r diverse Gewerke</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2016</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">029</div>
+					<div class="projekt-item">Krankenhaus Nord</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1210 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Mitarbeit gutachterliche T&auml;tigkeit</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2016</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">030</div>
+					<div class="projekt-item">Frauenthal AG</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">&Ouml;sterreich</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Gewerbeeinreichung, Umbauten, Brandschutzplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">laufend</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">031</div>
+					<div class="projekt-item">Wohnung E.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1140 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Wohnungsumbau</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2017-2018</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">032</div>
+					<div class="projekt-item">Wohnhausanlage ZOED</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">4020 Linz</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Kostenberechnung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2017</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Studio Eder-Krenn</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">033</div>
+					<div class="projekt-item">Wohnung V.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1070 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Wohnungsumbau</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2017-2018</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">034</div>
+					<div class="projekt-item">Wohnung H.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1020 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Wohnungsumbau</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2017-2018</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">035</div>
+					<div class="projekt-item">DC Tower Foodcourt</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1220 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Kantine</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenermittlungsgrundlage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2017</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">036</div>
+					<div class="projekt-item">DC Tower Parkdeck</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1220 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung Tiefgarage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenermittlungsgrundlage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2017-2018</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">037</div>
+					<div class="projekt-item">Zubau Einfamilienhaus M.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1170 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Zubau zum Einfamilienhaus Haus M 1.0</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2017-2019</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">038</div>
+					<div class="projekt-item">Wohnhaus H.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1090 Wien </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Dachgeschossausbau und Sanierung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2018-2021</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">039</div>
+					<div class="projekt-item">Krankenhaus Nord</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1210 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Mitarbeit gutachterliche Tt&auml;tigkeit</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2017-2018</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">040</div>
+					<div class="projekt-item">Wohnhausanlage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1050 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung Wohnhausanlage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausschreibung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2018-2019</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">041</div>
+					<div class="projekt-item">Forsthaus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">8934 Essling</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung eines Forsthauses, Jagdhauses und einer Wildkammer</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2019-2020</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">042</div>
+					<div class="projekt-item">Wohnhaus B.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1130 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau und Sanierung eines Wohnhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2017-2019</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">043</div>
+					<div class="projekt-item">Bildungscampus Atzgersdorf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1230 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung des Bildungscampus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenberechnug</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2018-2019</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Baumschlager Eberle</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">044</div>
+					<div class="projekt-item">Einfamilienhaus K.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1170 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2018</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">045</div>
+					<div class="projekt-item">Bildungseinrichtung NLEO</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1210 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung einer Schule </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-5</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2019-2023</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">046</div>
+					<div class="projekt-item">Einfamilienhaus H.S.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">3400 Klosterneuburg</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau und Sanierung eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2018-2021</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">047</div>
+					<div class="projekt-item">Hoffmannm&uuml;hle</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">2136 Laa an der Thaya</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau und Sanierung eines Bestandsgeb&auml;udes</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostensch&auml;tzung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2018-2019</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">048</div>
+					<div class="projekt-item">Wohnhaus T.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1160 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Einbau eines Aufzugs in ein bestehendes Wohnhaus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2019-2020</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">049</div>
+					<div class="projekt-item">Einfamilienhaus M.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">6141 Sch&ouml;nberg</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau und Sanierung eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2019-2020</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">050</div>
+					<div class="projekt-item">VIE</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1300 Schwechat</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenermittlungsgrundlage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2029</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Moser Architekten</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">051</div>
+					<div class="projekt-item">Kleingartenwohnhaus V.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1020 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung zweier Kleingartenwohnh&auml;user </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2020-2021</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">052</div>
+					<div class="projekt-item">Wohnhaus I.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1200 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Dachgeschossausbau und Lifteinbau</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2019</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">053</div>
+					<div class="projekt-item">Wohnhaus I.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1160 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Dachgeschossausbau und Lifteinbau</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-2</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Vorentwurf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2019</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">054</div>
+					<div class="projekt-item">Bildungscampus Krems</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">3500 Krems</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Bildungscampus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenberechnung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2020</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Baumschlager Eberle</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">055</div>
+					<div class="projekt-item">Seerestaurant</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">3532 Rastenfeld</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Terrassenerweiterung des Seerestaurants im Bootshaus Ottenstein</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2020-2021</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">056</div>
+					<div class="projekt-item">Wohnhaus M.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1140 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Dachgeschossausbau und Sanierung </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2020-2024</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">057</div>
+					<div class="projekt-item">Fitness I.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">2460 Bruckneudorf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbauten zur Errichtung ines Fitnessstudios</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2020</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">058</div>
+					<div class="projekt-item">Haus H.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1170 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Zubau zu einem bestehenden Einfamilienhaus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-2</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Vorentwurf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2020</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">059</div>
+					<div class="projekt-item">Wohnung  G.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1130 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau einer Wohnung </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2020-2021</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">060</div>
+					<div class="projekt-item">Haus M.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">6141 Sch&ouml;nberg</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau und Dachgeschossausbau eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2021-2022</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">061</div>
+					<div class="projekt-item">Forstarbeiterhaus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">8934 Essling</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Studie zum Neubau eines Forstarbeiterhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-2</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Vorentwurf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2021</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">062</div>
+					<div class="projekt-item">Forstamt</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">8934 Essling</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Studie zum Umbau einer Wohnung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-3</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Vorentwurf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2020</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">063</div>
+					<div class="projekt-item">Wohnung V.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1020 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau und Sanierung einer Wohnung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2020-2021</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">064</div>
+					<div class="projekt-item">Einfamilienhaus T.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1190 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau und Sanierung eines Einfamilienhauses </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">5-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrung, Ausschreibung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2020-2022</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">065</div>
+					<div class="projekt-item">Alm-Resort-Sonnenalpe</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">9620 Hermagor</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung von Chalets und Appartements Alm Resort Sonnenalpe</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenberechnung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2021</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Baumschlager Hutter Partners ZT GmbH</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">066</div>
+					<div class="projekt-item">Gymnasium G&auml;nserndorf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">2230 G&auml;nserndorf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Sanierung und Zubau BR/BRG G&auml;nserndorf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenermittlungsgrundlage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2020-2021</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Franz&Sue</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">067</div>
+					<div class="projekt-item">Einfamilienhaus I.M.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1130 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau einer Ordination und Gartengestaltung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2021-2023</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">068</div>
+					<div class="projekt-item">Personalhaus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">3914 Obernondorf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau eines Bestandshauses zu einem Personalwohnhaus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2021-2022</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">069</div>
+					<div class="projekt-item">Kleingartenhaus C.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1130 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Planung eines Kleingartenhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-5</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung und Ausf&uuml;hrungsplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2021</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">070</div>
+					<div class="projekt-item">Traunterrassen</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">4810 Gmunden</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">gutachterliche T&auml;tigkeit</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2021</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">071</div>
+					<div class="projekt-item">Einfamilienhaus I.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">3002 Purkersdorf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2021-2022</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">072</div>
+					<div class="projekt-item">Einfamilienhaus R.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1130 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Dachgeschossausbau bei einem Einfamilienhaus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">seit 2021</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">073</div>
+					<div class="projekt-item">Einfamilienhaus K.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1220 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2021-2024</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">074</div>
+					<div class="projekt-item">Wohnung G.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1030 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau einer Wohnung </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">5-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2021-2022</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">075</div>
+					<div class="projekt-item">Zubau Einfamilienhaus E.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1160 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Zubau eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2021</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">076</div>
+					<div class="projekt-item">CTMT</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1090 Wien </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung eines Forschungsgeb&auml;udes f&uuml;r das AKH Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">5</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrungsplanung - Fassadenplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2021-2024</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Moser Architekten</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">077</div>
+					<div class="projekt-item">Wohnung J.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1030 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung eines Wintergartens im Dachgeschoss</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2021</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">078</div>
+					<div class="projekt-item">TU Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1040 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Jahresausschreibung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostenermittlungsgrundlage</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2022-2023</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">079</div>
+					<div class="projekt-item">B&uuml;ro E.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1110 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Studie zum Umbau eines B&uuml;rogeb&auml;udes</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-2</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Vorentwurf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2022</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">080</div>
+					<div class="projekt-item">Musikverein</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1010 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung zweier Werbestelen f&uuml;r den Musikverein</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2022-2023</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">081</div>
+					<div class="projekt-item">Haus F.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">2572 Kaumberg</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-2</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Vorentwurf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2022</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">082</div>
+					<div class="projekt-item">CPM</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1090 Wien </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung eines Forschungsgeb&auml;udes f&uuml;r das AKH Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">5</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrungsplanung - Fassadenplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2022-2024</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Moser Architekten</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">083</div>
+					<div class="projekt-item">Haus N.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">6141 Sch&ouml;nberg</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Dachgeschossausbau eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-5</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2022-2024</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">084</div>
+					<div class="projekt-item">Wohnhaus F.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1090 Wien </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Dachgeschossausbau</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">seit 2022</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">085</div>
+					<div class="projekt-item">K&uuml;nstlerhaus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1010 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung zweier Werbestelen f&uuml;r das K&uuml;nstlerhaus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2023</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">086</div>
+					<div class="projekt-item">Wohnaus R.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">2340 M&ouml;dling</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau eines Einfamilienhauses inkl. Dachgeschossausbau</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2023-2024</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">087</div>
+					<div class="projekt-item">Einfamilienhaus K.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">5571 Bueggen</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau und Zubau eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-2</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Vorentwurf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2023</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">088</div>
+					<div class="projekt-item">Radiologie</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">8010 Graz</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Neubau Radiologie LKH Graz</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">5</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrungsplanung - Fassadenplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2023-2024</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Moser Architekten</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">089</div>
+					<div class="projekt-item">KJPP</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">3430 Tulln</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Neubau Klinische Abteilung f&uuml;r Kinder- und Jugendpsychiatrie und Psychotherapie </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausschreibung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2023</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Moser Architekten</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">090</div>
+					<div class="projekt-item">Wohnhaus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1140 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Errichtung eines Wohnbaus</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">6-7</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Vergabe</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">seit 2023</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Kooperation:</div>
+					<div class="projekt-item">f&uuml;r Living for Future</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">091</div>
+					<div class="projekt-item">Haus P.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">3195 Gscheid</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Kostensch&auml;tzung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2023</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">092</div>
+					<div class="projekt-item">Haus S.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1190 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau eines Einfamilienhauses</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-2</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Vorentwurf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2023</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">093</div>
+					<div class="projekt-item">Beherbergunsst&auml;tte</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1140 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Einreichung einer Beherbergungsst&auml;tte</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Umwidmung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">2024</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">094</div>
+					<div class="projekt-item">Wohnung R.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1090 Wien </div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau und Sanierung einer Wohnung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">seit 2024</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">095</div>
+					<div class="projekt-item">Wohnung C.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">3002 Purkersdorf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau und Sanierung einer Wohnung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-3</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Entwurf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">seit 2024</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">096</div>
+					<div class="projekt-item">Orchestergarderoben Musikverein</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1010 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Neugestaltung der Orchestergarderoben Musikverein</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Ausf&uuml;hrung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">seit 2024</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">097</div>
+					<div class="projekt-item">B&uuml;robau</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1230 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Machbarkeitsstudie</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-2</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung und Vorentwurf</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">seit 2024</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">098</div>
+					<div class="projekt-item">Privatschule</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1020 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Einreichung einer Privatschule</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Umwidmung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">seit 2024</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">099</div>
+					<div class="projekt-item">Wohnung H.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">1130 Wien</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Umbau und Sanierung einer Wohnung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-9</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Grundlagenermittlung bis Objektbetreuung und Dokumentation, M&ouml;belplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">seit 2024</div>
+				</div>
+
+				<div class="projekt-header">
+					<div class="projekt-item">100</div>
+					<div class="projekt-item">Industriegeb&auml;ude G.</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Ort:</div>
+					<div class="projekt-item">2542 Kottingbrunn</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Projektart:</div>
+					<div class="projekt-item">Gewerbeeinreichung, Umbauten, Brandschutzplanung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistungsphasen lt. HOAI:</div>
+					<div class="projekt-item">1-4</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Leistung:</div>
+					<div class="projekt-item">Einreichung</div>
+				</div>
+				<div class="projekt">
+					<div class="projekt-item">Jahr:</div>
+					<div class="projekt-item">seit 2024</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="bottom">
+			<a class="impressum" href="impressum.html">Impressum</a>
+			<p>&#169; 2025</p>
+		</div>
+		<script>
+			window.addEventListener('load', function Load(){
+				var MainPage = document.getElementById("main");
+				MainPage.style.opacity = "1";
+				});
+		</script>
+	</body>
+</html>

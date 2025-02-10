@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=0.75">
+		<link rel="icon" href="img/icon.png">
+		<title>Architektenb&uuml;ro Buttler</title>
+		<style>
+			html {height:100%;}
+			@font-face {font-family:TwCen;src:url('ttf/twcen-medium.ttf') format('truetype');} 
+			@font-face {font-family:TwCen;font-weight:bold;src:url('ttf/twcen-bold.ttf') format('truetype');}
+			body {font-family:TwCen,sans-serif;max-width:100%;overflow-x:hidden;background-color:#f5f5f0;height:100%;display:flex;flex-flow:column;margin:0;}
+			div.header {border-bottom:1px solid black;font-size:2em;text-transform:uppercase;display:flex;justify-content:space-between;margin:0.5em 0.5em 0.1em 0.5em;flex:0 1 auto;padding-bottom:0.1em;}
+			div.header-text {display:flex;justify-content:space-between;width:11.5em;color:black;}
+			div.header-menu {display:flex;justify-content:space-between;width:11.5em;}
+			div.header-item {flex: 0 1 auto;}
+			div.main {opacity:0;transition:opacity 0.25s;flex: 1 1 auto;margin:0.5em 1em 0.5em 1em;}
+			div.project {display:none;max-width:125em;justify-content:center;}
+			div.main-left {width:50%;max-height:120em;padding:1em 2em 1em 0em;}
+			div.main-right {width:50%;max-height:120em;padding:1em 0em 1em 2em;margin:auto;}
+			div.main-center {width:1px;border-right:1px solid black;max-height:120em;}
+			div.bottom {display:flex;font-size:0.75em;flex:0 1 auto;margin:0.1em 1em 0em 1em;padding-bottom:1em;justify-content:space-between;color:#71797e;}
+			div.projects {max-width:115em;margin:0 auto 0 auto;}
+			div.textbox-right {width:100%;float:right;padding-top:1em;}
+			table.images {margin:-0.5em -0.5em 0em -0.5em;}
+			td {padding:0.35em;}
+			tr {padding:0em;}
+			h1 {font-size:1em;font-weight:normal;margin:0;padding:0;color:black;flex: 0 1 auto;}
+			a {text-decoration:none;color:#71797E;-webkit-tap-highlight-color:transparent !important;}
+			a.current {color:#484e51;}
+			a:hover {color:black;}
+			img.pic {max-width:18em;margin:auto;}
+			img.plan {max-width:100%;}
+			img.pic {max-width:100%;margin-bottom:-0.25em;}
+			img.arrow-left {position:fixed;top:50vh;left:0.5em;opacity:0;transition:opacity 0.5s;margin-top:-25px;z-index:1000;}
+			img.arrow-right {position:fixed;top:50vh;right:0.5em;opacity:0;transition:opacity 0.5s;margin-top:-25px;z-index:1000;}
+			img.arrow-left:hover {opacity:1 !important;transition:opacity 0.2s;cursor:pointer;}
+			img.arrow-right:hover {opacity:1 !important;transition:opacity 0.2s;cursor:pointer;}
+			p {text-align:right;font-family:TwCen;font-size:1em;margin:0;}
+			p.text-header {font-size:2em;font-weight:bold;}
+			p.text-subheader {font-size:1em;font-weight:bold;margin-top:1em;}
+			@media screen and (max-width:770px) {
+				div.header {display:block;font-size:7.5vw;}
+				div.header-text {width:100%;}
+				div.header-menu {width:100%;}
+				div.main-center {display:inline-block;width:100%;border-right:none;border-bottom:1px solid black;min-height:1px;}
+				div.main-left {padding:1em 0em 1em 0em;width:100%;}
+				div.main-right {padding:1em 0em 1em 0em;width:100%;}
+				}
+			@media print {
+				div.header {font-size:1.5em;}
+				a.impressum {visibility:hidden;}
+				}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<a href="index.html">
+				<div class="header-text">
+					<h1>Architektenb&uuml;ro</h1>
+					<h1>Buttler</h1>
+				</div>
+			</a>
+			<div class="header-menu">
+				<div class="header-item"><a class="current" href="thumbs.html">Projekte</a></div>
+				<div class="header-item"><a href="team.html">Team</a></div>
+				<div class="header-item"><a href="kontakt.html">Kontakt</a></div>
+			</div>
+		</div>
+		<div class="main" id="main">
+			<div class="projects">
+				<div class="project" id="p001">
+					<div class="main-left">
+						<img class="plan" src="img/001_plan-01.png" />
+						<div class="textbox-right">
+							<p>2012-2014</p>
+							<p class="text-header">EINFAMILIENHAUS M.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1170 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>225 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnen</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-9</p>
+							<p>gesamtheitliche Architekturleistungen</p>
+							<p>bis schl&uuml;sselfertig</p>
+							<p>inkl. &ouml;rtliche Bauaufsicht</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/001_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/001_pic-02.jpg" /></td>
+								<td><img class="pic" src="img/001_pic-03.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p037">
+					<div class="main-left">
+						<img class="plan" src="img/037_plan-01.png" />
+						<div class="textbox-right">
+							<p>2017-2019</p>
+							<p class="text-header">ZUBAU EINFAMILIENHAUS M.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1170 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>180 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnen</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-9</p>
+							<p>gesamtheitliche Architekturleistungen</p>
+							<p>bis schl&uuml;sselfertig</p>
+							<p>inkl. &ouml;rtliche Bauaufsicht</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/037_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/037_pic-03.jpg" /></td>
+								<td><img class="pic" src="img/037_pic-02.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				
+				<div class="project" id="p013">
+					<div class="main-left">
+						<img class="plan" src="img/001_plan-01.png" />
+						<div class="textbox-right">
+							<p>2014-2015</p>
+							<p class="text-header">GENERALSANIERUNG VILLA B.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1130 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Baumschlager Hutter Partners</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>500 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnen u. Homeoffice</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 6-9</p>
+							<p>Kostenproject</p>
+							<p>Kostenermittlungsgrundlagen</p>
+							<p>Gesch&auml;ftliche Oberleitung</p>
+							<p>inkl. &ouml;rtliche Bauaufsicht</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="3"><img class="pic" src="img/013_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/013_pic-02.jpg" /></td>
+								<td><img class="pic" src="img/013_pic-03.jpg" /></td>
+								<td><img class="pic" src="img/013_pic-04.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			
+				<div class="project" id="p004">
+					<div class="main-left">
+						<img class="plan" src="img/004_plan-01.png" />
+						<div class="textbox-right">
+							<p>2014-2015</p>
+							<p class="text-header">GENERALSANIERUNG u. DACHAUSBAU M.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1150 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>315 m&sup2; DG</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnhaus</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 5-9</p>
+							<p>gesamtheitliche Architekturleistungen</p>
+							<p>bis schl&uuml;sselfertig</p>
+							<p>inkl. &ouml;rtliche Bauaufsicht</p>
+							<p>M&ouml;belplanung</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td><img class="pic" src="img/004_pic-01.jpg" /></td>
+								<td><img class="pic" src="img/004_pic-02.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/004_pic-03.jpg" /></td>
+								<td><img class="pic" src="img/004_pic-04.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p038">
+					<div class="main-left">
+						<img class="plan" src="img/038_plan-01.png" />
+						<div class="textbox-right">
+							<p>2018-2021</p>
+							<p class="text-header">GENERALSANIERUNG u. DACHAUSBAU H.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1090 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>360 m&sup2; DG</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnhaus</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-9</p>
+							<p>gesamtheitliche Architekturleistungen</p>
+							<p>bis schl&uuml;sselfertig</p>
+							<p>inkl. &ouml;rtliche Bauaufsicht</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/038_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/038_pic-02.jpg" /></td>
+								<td><img class="pic" src="img/038_pic-03.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				
+				<div class="project" id="p006">
+					<div class="main-left">
+						<img class="plan" src="img/006_plan-01.png" />
+						<div class="textbox-right">
+							<p>2013</p>
+							<p class="text-header">ENTWURF f&uuml;r GENERALSANIERUNG u. DACHAUSBAU M.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1170 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>200 m&sup2; DG</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnhaus</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-2</p>
+							<p>Vorentwurf</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td><img class="pic" src="img/006_plan-02.png" /></td>
+								<td><img class="pic" src="img/006_plan-03.png" /></td>
+							</tr>
+							<tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p056">
+					<div class="main-left">
+						<img class="plan" src="img/056_plan-01.png" />
+						<div class="textbox-right">
+							<p>2022-2024</p>
+							<p class="text-header">GENERALSANIERUNG u. DACHAUSBAU M.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1140 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>250 m&sup2; DG</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnhaus</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-9</p>
+							<p>gesamtheitliche Architekturleistungen</p>
+							<p>bis schl&uuml;sselfertig</p>
+							<p>inkl. &ouml;rtliche Bauaufsicht</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/056_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/056_pic-02.jpg" /></td>
+								<td><img class="pic" src="img/056_pic-03.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p052">
+					<div class="main-left">
+						<img class="plan" src="img/052_plan-01.png" />
+						<div class="textbox-right">
+							<p>2022-2025</p>
+							<p class="text-header">EINREICHUNG f&uuml;r GENERALSANIERUNG u. DACHAUSBAU I.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1200 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>2x 500 m&sup2; DG</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnhaus</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-4</p>
+							<p>Einreichung</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/052_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/052_plan-02.png" /></td>
+								<td><img class="pic" src="img/052_plan-03.png" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="pp01">
+					<div class="main-left">
+						<img class="plan" src="img/p01_plan-01.png" />
+						<div class="textbox-right">
+							<p>2021</p>
+							<p class="text-header">ENTWURF f&uuml;r GENERALSANIERUNG u. DACHAUSBAU W.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1020 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>450 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnhaus</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>Vorentwurf</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/p01_plan-02.png" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/p01_plan-03.png" /></td>
+								<td><img class="pic" src="img/p01_plan-04.png" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p045">
+					<div class="main-left">
+						<img class="plan" src="img/045_plan-01.png" />
+						<div class="textbox-right">
+							<p>2019-2025</p>
+							<p class="text-header">ERRICHTUNG EINER SCHULE</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1230 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>ARGE NELE 2</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>3875 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Bildungseinrichtung</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-5</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td><img class="pic" src="img/045_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/045_pic-02.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/045_pic-03.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p042">
+					<div class="main-left">
+						<img class="plan" src="img/042_plan-01.png" />
+						<div class="textbox-right">
+							<p>2021</p>
+							<p class="text-header">SANIERUNG u. ZUBAU MEHRFAMILIENHAUS B. & F.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1130 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>415 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnhaus</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-9</p>
+							<p>gesamtheitliche Architekturleistungen</p>
+							<p>bis schl&uuml;sselfertig</p>
+							<p>inkl. &ouml;rtliche Bauaufsicht</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/042_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/042_pic-02.jpg" /></td>
+								<td><img class="pic" src="img/042_pic-03.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p051">
+					<div class="main-left">
+						<img class="plan" src="img/051_plan-01.png" />
+						<div class="textbox-right">
+							<p>2021</p>
+							<p class="text-header">KLEINGARTENWOHNHAUS V.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1020 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>140 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Kleingartenwohnhaus</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-9</p>
+							<p>gesamtheitliche Architekturleistungen</p>
+							<p>bis schl&uuml;sselfertig</p>
+							<p>inkl. &ouml;rtliche Bauaufsicht</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/051_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/051_pic-02.jpg" /></td>
+								<td><img class="pic" src="img/051_pic-03.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p041">
+					<div class="main-left">
+						<img class="plan" src="img/041_plan-01.png" />
+						<div class="textbox-right">
+							<p>2018-2019</p>
+							<p class="text-header">NEUBAU FORST- u. JAGDHAUS</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-8934 Essling</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>350 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Forstwirtschaft</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-9</p>
+							<p>gesamtheitliche Architekturleistungen</p>
+							<p>bis schl&uuml;sselfertig</p>
+							<p>inkl. &ouml;rtliche Bauaufsicht</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td rowspan="2"><img class="pic" src="img/041_pic-01.jpg" /></td>
+								<td><img class="pic" src="img/041_pic-02.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/041_pic-03.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p060">
+					<div class="main-left">
+						<img class="plan" src="img/060_plan-01.png" />
+						<div class="textbox-right">
+							<p>2021-2022</p>
+							<p class="text-header">SANIERUNG u. UMBAU EINFAMILIENHAUS M.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-6141 Sch&ouml;nberg</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>166 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnen</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-9</p>
+							<p>gesamtheitliche Architekturleistungen</p>
+							<p>bis schl&uuml;sselfertig</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/060_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/060_pic-02.jpg" /></td>
+								<td><img class="pic" src="img/060_pic-03.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p058">
+					<div class="main-left">
+						<img class="plan" src="img/058_plan-01.png" />
+						<div class="textbox-right">
+							<p>2020</p>
+							<p class="text-header">ENTWURF ZUBAU EINFAMILIENHAUS H.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1170 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>150 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnen</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-2</p>
+							<p>Vorentwurf</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/058_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/058_pic-02.jpg" /></td>
+								<td><img class="pic" src="img/058_pic-03.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p049">
+					<div class="main-left">
+						<img class="plan" src="img/049_plan-01.png" />
+						<div class="textbox-right">
+							<p>2015</p>
+							<p class="text-header">SANIERUNG u. UMBAU EINFAMILIENHAUS M.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-6141 Sch&ouml;nberg</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>300 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnen</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-9</p>
+							<p>gesamtheitliche Architekturleistungen</p>
+							<p>bis schl&uuml;sselfertig</p>
+							<p>inkl. &ouml;rtliche Bauaufsicht</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/049_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/049_pic-02.jpg" /></td>
+								<td><img class="pic" src="img/049_pic-03.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p072">
+					<div class="main-left">
+						<img class="plan" src="img/072_plan-01.png" />
+						<div class="textbox-right">
+							<p>ab 2021</p>
+							<p class="text-header">SANIERUNG u. UMBAU EINFAMILIENHAUS R.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1130 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>190 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnen</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-4</p>
+							<p>Entwurf</p>
+							<p>Einreichung</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/072_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/072_pic-02.jpg" /></td>
+								<td><img class="pic" src="img/072_pic-03.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p079">
+					<div class="main-left">
+						<img class="plan" src="img/079_plan-01.png" />
+						<div class="textbox-right">
+							<p>2022</p>
+							<p class="text-header">STUDIE f&uuml;r UMBAU EINES B&Uuml;ROGEB&Auml;UDES</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1110 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>6500 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Arbeiten, Gastronomie</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-2</p>
+							<p>Vorentwurf</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td rowspan="2"><img class="pic" src="img/079_plan-02.png" /></td>
+								<td><img class="pic" src="img/079_pic-02.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/079_pic-01.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p020">
+					<div class="main-left">
+						<img class="plan" src="img/020_plan-01.png" />
+						<div class="textbox-right">
+							<p>2015</p>
+							<p class="text-header">UMBAU WOHNUNG P.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1030 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>45 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnen</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-9</p>
+							<p>gesamtheitliche Architekturleistungen</p>
+							<p>bis schl&uuml;sselfertig</p>
+							<p>inkl. &ouml;rtliche Bauaufsicht</p>
+							<p>M&ouml;belplanung</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="3"><img class="pic" src="img/020_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/020_pic-02.jpg" /></td>
+								<td><img class="pic" src="img/020_pic-03.jpg" /></td>
+								<td><img class="pic" src="img/020_pic-04.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p063">
+					<div class="main-left">
+						<img class="plan" src="img/063_plan-01.png" />
+						<div class="textbox-right">
+							<p>2015</p>
+							<p class="text-header">UMBAU WOHNUNG V.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1020 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>60 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnen</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-9</p>
+							<p>gesamtheitliche Architekturleistungen</p>
+							<p>bis schl&uuml;sselfertig</p>
+							<p>inkl. &ouml;rtliche Bauaufsicht</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/063_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/063_pic-02.jpg" /></td>
+								<td><img class="pic" src="img/063_pic-03.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="p073">
+					<div class="main-left">
+						<img class="plan" src="img/073_plan-01.png" />
+						<div class="textbox-right">
+							<p>2022-2024</p>
+							<p class="text-header">EINFAMILIENHAUS K.</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1220 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>Architektenteam Buttler</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>230 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Wohnen</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>LPH 1-9</p>
+							<p>gesamtheitliche Architekturleistungen</p>
+							<p>bis schl&uuml;sselfertig</p>
+							<p>inkl. &ouml;rtliche Bauaufsicht</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/073_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/073_pic-02.jpg" /></td>
+								<td><img class="pic" src="img/073_pic-03.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="pw01">
+					<div class="main-left">
+						<img class="plan" src="img/w01_plan-01.png" />
+						<div class="textbox-right">
+							<p>2015</p>
+							<p class="text-header">WETTBEWERB BAUHAUS MUSEUM</p>
+							<p class="text-subheader">Ort:</p>
+							<p>D-06844 Dessau</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>B&uuml;rogemeinschaft Buttler Harrer</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>4700 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Museum u. Veranstaltungszentrum</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>Wettbewerb</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td><img class="pic" src="img/w01_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/w01_pic-02.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/w01_plan-02.png" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="pw02">
+					<div class="main-left">
+						<img class="plan" src="img/w02_plan-01.png" />
+						<div class="textbox-right">
+							<p>2015</p>
+							<p class="text-header">WETTBEWERB BUNDESREALGYMNASIUM SILLGASSE</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-6020 Innsbruck</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>B&uuml;rogemeinschaft Buttler Harrer</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>11600 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Schule u. Nachmittagsbetreuung</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>Wettbewerb</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td><img class="pic" src="img/w02_pic-01.jpg" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/w02_pic-02.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="pw03">
+					<div class="main-left">
+						<img class="plan" src="img/w03_plan-01.png" />
+						<div class="textbox-right">
+							<p>2016</p>
+							<p class="text-header">WETTBEWERB ZUBAU SPERLGYMNASIUM</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-1020 Wien</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>B&uuml;rogemeinschaft Buttler Harrer</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>1850 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Schule u. Nachmittagsbetreuung</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>Wettbewerb</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td colspan="2"><img class="pic" src="img/w03_plan-02.png" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/w03_plan-03.png" /></td>
+								<td><img class="pic" src="img/w03_pic-01.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="project" id="pw04">
+					<div class="main-left">
+						<img class="plan" src="img/w04_plan-01.png" />
+						<div class="textbox-right">
+							<p>2016</p>
+							<p class="text-header">WETTBEWERB MUSIKSCHULE u. VERANSTALTUNGSZENTRUM</p>
+							<p class="text-subheader">Ort:</p>
+							<p>A-4300 St. Valentin</p>
+							<p class="text-subheader">Architektur:</p>
+							<p>B&uuml;rogemeinschaft Buttler Harrer</p>
+							<p class="text-subheader">Gr&ouml;&szlig;e:</p>
+							<p>3060 m&sup2;</p>
+							<p class="text-subheader">Nutzung:</p>
+							<p>Musikschule u. Veranstaltungszentrum</p>
+							<p class="text-subheader">Leistungen:</p>
+							<p>Wettbewerb</p>
+						</div>
+					</div>
+					<div class="main-center"></div>
+					<div class="main-right">
+						<table class="images">
+							<tr>
+								<td><img class="pic" src="img/w04_plan-02.png" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/w04_plan-03.png" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/w04_plan-04.png" /></td>
+							</tr>
+							<tr>
+								<td><img class="pic" src="img/w04_pic-01.jpg" /></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				
+			</div>
+			<img class="arrow-left" src="img/arrow-left.png" id="arrow-left" onclick="ClickLeft()" />
+			<img class="arrow-right" src="img/arrow-right.png" id="arrow-right" onclick="ClickRight()" />
+		</div>
+		<div class="bottom">
+			<a class="impressum" href="impressum.html">Impressum</a>
+			<p>&#169; 2025</p>
+		</div>
+		<script>
+			var ArrowLeft;
+			var ArrowRight;
+			var ProjectNumber;
+			var CurrentProject;
+			var ProjectPosition;
+			var LeftProject;
+			var RightProject;
+			var ProjectList;
+			var TouchXStart;
+			var TouchXCurrent;
+			window.addEventListener('load', WindowLoad);
+			window.addEventListener('resize', WindowResize);
+			window.addEventListener('mousemove', MouseMove);
+			window.addEventListener('mouseout', MouseLeave);
+			window.addEventListener('touchstart', TouchStart);
+			window.addEventListener('touchmove', TouchMove);
+			window.addEventListener('touchend', TouchEnd);
+			window.addEventListener('keydown', KeyDown);
+			function WindowLoad() {
+				var MainPage = document.getElementById("main");
+				MainPage.style.opacity = "1";
+				ArrowLeft = document.getElementById("arrow-left");
+				ArrowRight = document.getElementById("arrow-right");
+				ProjectList = Array.from(document.getElementsByClassName("project"));
+				if (window.location.hash) {ProjectNumber = "p"+window.location.hash.substr(1);}
+				else { ProjectNumber = "p001"; }
+				CurrentProject = document.getElementById(ProjectNumber);
+				FindProjects();
+				DisplayProjects();
+				}
+			function WindowResize() {
+				if (window.innerWidth > 770) {CurrentProject.style.display = "flex";}
+				else {CurrentProject.style.display = "block";}
+				}
+			function FindProjects() {
+				ProjectPosition = ProjectList.indexOf(CurrentProject);
+				var LeftPosition = ProjectPosition - 1;
+				var RightPosition = ProjectPosition + 1;
+				if (ProjectPosition == 0) {LeftPosition = ProjectList.length - 1;}
+				else if (ProjectPosition == ProjectList.length - 1) {RightPosition = 0;}
+				LeftProject = ProjectList[LeftPosition];
+				RightProject = ProjectList[RightPosition];
+				}
+			function DisplayProjects() {
+				LeftProject.style.display = "none";
+				RightProject.style.display = "none";
+				if (window.innerWidth > 770) {CurrentProject.style.display = "flex";}
+				else {CurrentProject.style.display = "block";}
+				}
+			function MouseMove(event) {
+				var xPosition = event.clientX / window.innerWidth;
+				if (xPosition < 0.333) {ArrowLeft.style.opacity = "0.5";}
+				else if (xPosition > 0.666) {ArrowRight.style.opacity = "0.5";}
+				else {ArrowLeft.style.opacity = "0";ArrowRight.style.opacity = "0";}
+				}
+			function MouseLeave() {
+				ArrowLeft.style.opacity = "0";
+				ArrowRight.style.opacity = "0";
+				}
+			function ClickLeft() {
+				CurrentProject = LeftProject;
+				CreateHash();
+				FindProjects();
+				DisplayProjects();
+				}
+			function ClickRight() {
+				CurrentProject = RightProject;
+				CreateHash();
+				FindProjects();
+				DisplayProjects();
+				}
+			function CreateHash() {
+				window.location.hash = "#" + CurrentProject.id.slice(-3);
+				}
+			function TouchStart(event) {
+				TouchXStart = event.touches[0].clientX;
+				TouchXCurrent = TouchXStart;
+				CheckTouchPosition();
+				}
+			function TouchMove(event) {
+				TouchXCurrent = event.changedTouches[0].clientX;
+				CheckTouchPosition();
+				var xDifference = TouchXCurrent - TouchXStart;
+				var xRelative = xDifference / window.innerWidth;
+				if (xRelative > 0.25 || xDifference > 150) {ArrowLeft.style.opacity = "1";}
+				else if (xRelative > 0.01 || xDifference > 5) {ArrowLeft.style.opacity = "0.5";}
+				else if (xRelative < -0.25 || xDifference < -150) {ArrowRight.style.opacity = "1";}
+				else if (xRelative < -0.01 || xDifference < -5) {ArrowRight.style.opacity = "0.5";}
+				}
+			function TouchEnd(event) {
+				ArrowLeft.style.opacity = "0";
+				ArrowRight.style.opacity = "0";
+				var xDifference = TouchXCurrent - TouchXStart;
+				var xRelative = xDifference / window.innerWidth;
+				if (xRelative > 0.25 || xDifference > 150) {ClickLeft();}
+				else if (xRelative < -0.25 || xDifference < -150) {ClickRight();}
+				}
+			function CheckTouchPosition() {
+				var xPosition = TouchXCurrent / window.innerWidth;
+				if (xPosition < 0.333) {ArrowLeft.style.opacity = "0.5";ArrowRight.style.opacity = "0";}
+				else if (xPosition > 0.666) {ArrowRight.style.opacity = "0.5";ArrowLeft.style.opacity = "0";}
+				else {ArrowLeft.style.opacity = "0";ArrowRight.style.opacity = "0";}
+				}
+			function KeyDown(e) {
+				if (e.keyCode === 37) {ClickLeft();}
+				else if (e.keyCode === 39) {ClickRight();}
+				}
+		</script>
+	</body>
+</html>
